@@ -7,13 +7,15 @@ body{
     z-index: 1;
     font-size: 24px;
     position: fixed;
+    top: 0px;
+    padding-top: 10px;
     height: 50px;
     display: block;
     background-color: white;
 }
 
 .nav th{
-    width: 85%;
+    width: 80%;
     text-align: left;
     padding-left: 20px;
     font-size: 24px;
@@ -44,7 +46,9 @@ body{
 
 #aboutpar{
     padding-top: 20px;
+    position: absolute;
     left: 400px;
+    width: 60%;
 }
 
 h2{
@@ -62,6 +66,3 @@ h3{
     font-size: 24px;
 }
   
-p{
-
-}
