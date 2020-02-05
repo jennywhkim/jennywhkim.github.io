@@ -33,13 +33,13 @@ body{
 
 .about{
     position: absolute;
-    top: 600px;
+    top: 650px;
     padding: 0px 30px;
 }
 
 #profpic{
     padding-top: 20px;
-    width: 300px;
+    width: 20%;
 }
 
 #aboutpar{
@@ -56,6 +56,11 @@ h4{
     color: #616161;
     font-size: 20px;
   }
+
+h3{
+    color: #ff9933;
+    font-size: 24px;
+}
   
 p{
 
