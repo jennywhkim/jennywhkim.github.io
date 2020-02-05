@@ -13,7 +13,7 @@ body{
 }
 
 .nav th{
-    width: 70%;
+    width: 85%;
     text-align: left;
     padding-left: 20px;
     font-size: 24px;
@@ -33,8 +33,18 @@ body{
 
 .about{
     position: absolute;
-    top: 500px;
+    top: 600px;
     padding: 0px 30px;
+}
+
+#profpic{
+    padding-top: 20px;
+    width: 300px;
+}
+
+#aboutpar{
+    padding-top: 20px;
+    left: 400px;
 }
 
 h2{
