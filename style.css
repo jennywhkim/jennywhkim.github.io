@@ -27,7 +27,7 @@ body{
 
 .landing{
     position: absolute;
-    top: 130px;
+    padding: 100px 0px;
 }
 
 p{
