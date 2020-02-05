@@ -17,14 +17,14 @@ body{
 }
 
 #navlinks{
-    color:#454545;
     width: 30%;
     text-align: right;
     padding-right: 60px;
 }
 
 .landing{
-    position: relative;
+    position: absolute;
+    top: 50px;
 }
 
 p{
