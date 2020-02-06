@@ -74,7 +74,11 @@ h3{
     color: #ff9933;
     font-size: 30px;
 }
-  
+
+.about a{
+    color: black;
+}
+
 a:hover{
     color:#ffa852;
 }
