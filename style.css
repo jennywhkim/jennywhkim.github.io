@@ -41,13 +41,14 @@ body{
 
 #profpic{
     padding-top: 20px;
-    width: 200px;
+    width: 250px;
 }
 
 #aboutpar{
+    position: absolute;
     padding-top: 20px;
     left: 400px;
-    width: 500px;
+    width: 700px;
 }
 
 h2{
