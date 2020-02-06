@@ -39,6 +39,7 @@ body{
     position: absolute;
     top: 650px;
     left: 100px;
+    padding-bottom: 50px;
 }
 
 .about th{
