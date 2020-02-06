@@ -40,6 +40,8 @@ body{
 }
 
 #profpic{
+    position: absolute;
+    top: 670px;
     padding-top: 20px;
     width: 20%;
 }
