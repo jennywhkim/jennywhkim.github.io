@@ -37,14 +37,14 @@ body{
     position: absolute;
     top: 650px;
     padding: 20px 50px;
-    width: 20%;
+    width: 200px;
 }
 
 .about td{
     position: absolute;
     top: 650px;
     padding-top: 20px;
-    width: 70%;
+    width: 700px;
 }
 
 h2{
