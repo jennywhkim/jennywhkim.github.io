@@ -30,6 +30,10 @@ body{
     color: #616161;
 }
 
+.nav a{
+    color: #616161;
+}
+
 .landing{
     position: absolute;
     padding: 200px 100px;
@@ -81,4 +85,5 @@ h3{
 
 a:hover{
     color:#ffa852;
+    transition: 0.1s;
 }
