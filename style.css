@@ -33,16 +33,18 @@ body{
     padding: 200px 100px;
 }
 
-.about th{
+.about{
     position: absolute;
     top: 650px;
+    padding-left: 30px;
+}
+
+.about th{
     padding: 20px 50px;
     width: 200px;
 }
 
 .about td{
-    position: absolute;
-    top: 650px;
     padding-top: 20px;
     width: 700px;
 }
