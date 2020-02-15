@@ -81,6 +81,10 @@ body{
     top: 1200px;
 }
 
+.prjlist img{
+    height: 225px;
+}
+
 
 h2{
     color: #ff9933;
