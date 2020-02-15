@@ -82,18 +82,18 @@ body{
 }
 
 .prjlist td{
-    width: 400px;
+    width: 350px;
     padding-top: 30px;
     padding-right: 50px;
     text-align: center;
 }
 
 .prjlist img{
-    height: 300px;
+    height: 275px;
 }
 
 .prjlist p{
-    width: 300px;
+    width: 275px;
 }
 
 
