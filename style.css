@@ -92,6 +92,10 @@ body{
     height: 300px;
 }
 
+.prjlist p{
+    width: 300px;
+}
+
 
 h2{
     color: #ff9933;
