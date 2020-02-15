@@ -42,11 +42,11 @@ body{
 .landpic{
     position: absolute;
     top: 180px;
-    left: 800px;
+    left: 750px;
 }
 
 #landpic{
-    width: 250px;
+    width: 330px;
 }
 
 .about{
