@@ -51,9 +51,10 @@ body{
 
 .about{
     position: absolute;
-    top: 650px;
+    top: 550px;
     left: 100px;
     padding-bottom: 50px;
+    padding-top: 100px;
 }
 
 .about th{
