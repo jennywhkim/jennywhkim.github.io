@@ -39,6 +39,16 @@ body{
     padding: 200px 100px;
 }
 
+.landpic{
+    position: absolute;
+    top: 200px;
+    left: 600px;
+}
+
+#landpic{
+    width: 250px;
+}
+
 .about{
     position: absolute;
     top: 650px;
@@ -71,7 +81,7 @@ h2{
  
 h4{
     color: #616161;
-    font-size: 20px;
+    font-size: 18px;
   }
 
 h3{
