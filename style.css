@@ -51,10 +51,10 @@ body{
 
 .about{
     position: absolute;
-    top: 500px;
+    top: 550px;
     left: 100px;
     padding-bottom: 50px;
-    padding-top: 100px;
+    padding-top: 50px;
 }
 
 .about th{
@@ -83,8 +83,8 @@ body{
 
 .prjlist td{
     width: 400px;
-    text-align: center;
     padding: 50px 0px;
+    text-align: center;
 }
 
 
