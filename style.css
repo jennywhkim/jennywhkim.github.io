@@ -105,13 +105,12 @@ body{
 
 .contact{
     position: absolute;
-    margin-left: 100px;
+    margin: 0px 100px;
     top: 2000px;
     padding-top: 50px;
 }
 
 .cntres{
-    margin: 100px 50px;
     width: 100%;
 }
 
