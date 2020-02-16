@@ -81,9 +81,12 @@ body{
     top: 1200px;
 }
 
+.prjlist table{
+    padding-top: 30px;
+}
+
 .prjlist td{
     width: 350px;
-    padding-top: 30px;
     padding-right: 50px;
     text-align: center;
 }
