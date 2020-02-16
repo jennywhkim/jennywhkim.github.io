@@ -83,6 +83,10 @@ body{
     top: 1200px;
 }
 
+.prjlist{
+    margin-top: 30px;
+}
+
 .prjlist td{
     width: 325px;
     padding-right: 50px;
