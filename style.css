@@ -117,6 +117,10 @@ body{
     vertical-align: top;
 }
 
+.cntres img{
+    height: 250px;
+}
+
 h2{
     color: #ff9933;
     font-size: 46px;
