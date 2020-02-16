@@ -78,8 +78,8 @@ body{
 }
 
 .prjs{
-    position: relative;
-    left: 100px;
+    position: absolute;
+    margin-left: 100px;
     top: 1200px;
 }
 
