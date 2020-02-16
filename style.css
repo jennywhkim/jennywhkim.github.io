@@ -103,6 +103,17 @@ body{
 }
 
 
+.contact{
+    position: absolute;
+    margin-left: 100px;
+    top: 2000px;
+    padding-top: 50px;
+}
+
+.contact table{
+    margin: 100px 50px;
+}
+
 h2{
     color: #ff9933;
     font-size: 46px;
