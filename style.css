@@ -111,15 +111,8 @@ body{
     width: 100%;
 }
 
-.cntres{
-    width: 100%;
-    border-color: black;
-    border-style: solid;
-}
-
 .cntres th, td{
-    width: 50%;
-    border-style: solid;
+    width: 500px;
 }
 
 h2{
