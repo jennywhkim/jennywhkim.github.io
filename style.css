@@ -61,7 +61,7 @@ body{
     width: 290px;
     padding-top: 0px;
     padding-left: 0px;
-
+    vertical-align: top;
 }
 
 #profpic{
@@ -76,7 +76,7 @@ body{
 }
 
 .prjs{
-    position: absolute;
+    position: relative;
     left: 100px;
     top: 1200px;
 }
@@ -86,6 +86,7 @@ body{
     padding-right: 50px;
     padding-top: 0px;
     text-align: center;
+    vertical-align: top;
     border-color: black;
     border-style: solid;
 }
