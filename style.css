@@ -90,6 +90,8 @@ body{
 
 .prjlist img{
     height: 275px;
+    position: relative;
+    top: 0px;
 }
 
 
