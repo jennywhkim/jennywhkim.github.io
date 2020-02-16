@@ -79,7 +79,9 @@ body{
 }
 
 .prjs{
+    position: absolute;
     margin-left: 100px;
+    top: 1100px;
     padding-top: 50px;
 }
 
