@@ -87,6 +87,7 @@ body{
     padding-top: 30px;
     text-align: center;
     border-color: black;
+    border-style: solid;
 }
 
 .prjlist img{
