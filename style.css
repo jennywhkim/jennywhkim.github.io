@@ -108,6 +108,7 @@ body{
     margin: 0px 100px;
     top: 2000px;
     padding-top: 50px;
+    width: 100%;
 }
 
 .cntres{
@@ -116,8 +117,9 @@ body{
     border-style: solid;
 }
 
-.cntres th{
+.cntres th, td{
     width: 50%;
+    border-style: solid;
 }
 
 h2{
