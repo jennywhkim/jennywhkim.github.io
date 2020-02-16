@@ -82,9 +82,9 @@ body{
 }
 
 .prjlist td{
-    width: 350px;
-    padding-right: 50px;
-    padding-top: 30px;
+    width: 325px;
+    margin-right: 50px;
+    margin-top: 30px;
     text-align: center;
     border-color: black;
     border-style: solid;
