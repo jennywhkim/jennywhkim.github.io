@@ -113,6 +113,8 @@ body{
 
 .cntres th, td{
     width: 500px;
+    text-align: left;
+    vertical-align: top;
 }
 
 h2{
