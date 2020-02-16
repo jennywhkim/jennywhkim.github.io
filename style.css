@@ -112,6 +112,8 @@ body{
 
 .cntres{
     width: 100%;
+    border-color: black;
+    border-style: solid;
 }
 
 .cntres th{
