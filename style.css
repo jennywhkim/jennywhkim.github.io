@@ -55,6 +55,7 @@ body{
     left: 100px;
     padding-bottom: 50px;
     padding-top: 50px;
+    height: 550px;
 }
 
 .about th{
@@ -78,10 +79,8 @@ body{
 }
 
 .prjs{
-    position: absolute;
     margin-left: 100px;
-    top: 1100px;
-    padding-top: 100px;
+    padding-top: 50px;
 }
 
 .prjlist{
