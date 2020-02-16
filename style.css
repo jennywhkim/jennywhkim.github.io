@@ -114,6 +114,10 @@ body{
     width: 100%;
 }
 
+.cntres th{
+    width: 50%;
+}
+
 h2{
     color: #ff9933;
     font-size: 46px;
