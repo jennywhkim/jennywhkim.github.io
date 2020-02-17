@@ -123,6 +123,10 @@ body{
     height: 250px;
 }
 
+#resumepic:hover{
+    opacity: 0.4;
+}
+
 h2{
     color: #ff9933;
     font-size: 46px;
