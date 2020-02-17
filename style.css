@@ -140,6 +140,8 @@ body{
 
 .prjhome td{
     vertical-align: top;
+    border-style: solid;
+    border-color: black;
 }
 
 .prjhome img{
