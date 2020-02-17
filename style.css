@@ -127,6 +127,12 @@ body{
     opacity: 0.4;
 }
 
+.prjhome{
+    position: absolute;
+    padding-left: 100px;
+    top: 200px;
+}
+
 h2{
     color: #ff9933;
     font-size: 46px;
