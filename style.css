@@ -104,6 +104,7 @@ body{
 
 .prjlist a{
     color: black;
+    text-decoration: none; 
 }
 
 
