@@ -135,7 +135,8 @@ body{
 .prjhome{
     position: absolute;
     padding-left: 100px;
-    top: 50px;
+    top: 100px;
+    vertical-align: top;
 }
 
 h2{
