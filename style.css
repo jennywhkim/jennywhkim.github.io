@@ -105,7 +105,8 @@ body{
 
 .contact{
     position: absolute;
-    margin: 0px 100px;
+    padding-left: 100px;
+    padding-right: 100px;
     top: 2000px;
     padding-top: 50px;
     width: 100%;
