@@ -136,6 +136,9 @@ body{
     position: absolute;
     padding-left: 100px;
     top: 100px;
+}
+
+.prjhome td{
     vertical-align: top;
 }
 
