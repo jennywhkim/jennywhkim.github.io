@@ -156,8 +156,9 @@ h3{
 
 hr{
     border: 1px solid #b5b5b5;
-    text-align: center;
-    width: 85%;
+    text-align: left;
+    padding-left: 100px;
+    width: 1600px;
 }
 
 .nav a{
