@@ -154,6 +154,12 @@ h3{
     font-size: 30px;
 }
 
+hr{
+    border: 1px solid #616161;
+    text-align: center;
+    width: 80%;
+}
+
 .nav a{
     color: #616161;
 }
