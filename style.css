@@ -146,6 +146,12 @@ body{
     padding-top: 15px;
 }
 
+.prjbody{
+    position: absolute;
+    top: 550px;
+    padding-left: 100px;
+}
+
 h2{
     color: #ff9933;
     font-size: 46px;
@@ -159,6 +165,11 @@ h4{
 h3{
     color: #ff9933;
     font-size: 30px;
+}
+
+h5{
+    color: black;
+    font-size: 28px;
 }
 
 hr{
