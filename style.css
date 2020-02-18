@@ -150,9 +150,7 @@ body{
     position: absolute;
     top: 600px;
     padding-left: 100px;
-    width: 80%;
-    border-style: solid;
-    border-color: black;
+    width: 75%;
 }
 
 .prjbody img{
