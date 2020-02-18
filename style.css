@@ -133,11 +133,11 @@ body{
 .prjhome td{
     vertical-align: top;
     padding-right: 100px;
-    width: 750px;
+    width: 1000px;
 }
 
 .prjhome img{
-    padding-top: 0px;
+    padding-top: 15px;
 }
 
 h2{
@@ -158,8 +158,7 @@ h3{
 hr{
     border: 1px solid #b5b5b5;
     text-align: left;
-    padding-left: 100px;
-    width: 700px;
+    width: 800px;
 }
 
 .nav a{
