@@ -148,9 +148,11 @@ body{
 
 .prjbody{
     position: absolute;
-    top: 650px;
+    top: 600px;
     padding-left: 100px;
-    width: 85%;
+    width: 80%;
+    border-style: solid;
+    border-color: black;
 }
 
 h2{
