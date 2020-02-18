@@ -143,6 +143,11 @@ body{
     padding-right: 100px;
 }
 
+.prjhome a{
+    color: black;
+    text-decoration: none; 
+}
+
 .prjhome img{
     padding-top: 30px;
 }
