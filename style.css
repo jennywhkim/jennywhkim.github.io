@@ -148,8 +148,9 @@ body{
 
 .prjbody{
     position: absolute;
-    top: 550px;
+    top: 650px;
     padding-left: 100px;
+    width: 85%;
 }
 
 h2{
@@ -169,7 +170,7 @@ h3{
 
 h5{
     color: black;
-    font-size: 28px;
+    font-size: 26px;
 }
 
 hr{
