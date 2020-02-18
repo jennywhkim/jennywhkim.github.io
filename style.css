@@ -155,9 +155,10 @@ h3{
 }
 
 hr{
-    border: 1px solid #616161;
+    border: 1px solid #949494;
     text-align: center;
-    width: 80%;
+    padding-left: 50px;
+    width: 85%;
 }
 
 .nav a{
