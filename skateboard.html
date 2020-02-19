@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Jenny Kim</title>
+        <link href="../style.css" rel="stylesheet" type="text/css">
+    </head>
+    <body>
+        <div class="topnav">
+            <table class="nav">
+                <tr>
+                    <th><strong><a href="https://jennywhkim.github.io" style="text-decoration: none">Jenny Kim</a></strong></th>
+                    <td><a href="https://jennywhkim.github.io/#aboutme" style="text-decoration: none">About</a></td>
+                    <td><a href="https://jennywhkim.github.io/#projects" style="text-decoration: none">Projects</a></td>
+                    <td><a href="https://jennywhkim.github.io/#contactresume" style="text-decoration: none">Contact/Resume</a></td>
+            </table>
+        </div>
+
+        <div class="prjhome"> <!--contains title, image, and short descr -->
+            <h3>Skateboarding Robot</h3>
+            <table>
+                <tr>
+                    <th width="60%">
+                        <p>
+                            <em><strong>Robot Design Studio</strong> / Winter-Spring 2020</em><br>
+                            <br>                            
+                            Teammates: <a href="https://www.linkedin.com/in/jacob-beran-47b8a6118/" target="_blank">
+                                Jake Beran</a>, Qiyan Chen, <a href="https://www.linkedin.com/in/michael-doody-91b48772/" target="_blank">
+                                Michael Doody</a>, <a href="https://www.linkedin.com/in/juan-maria-solera-186797a1/" target="_blank">
+                                Juan Maria Solera</a>, 
+                                <a href="https://www.linkedin.com/in/christophertsai1998/" target="_blank">
+                                Christopher Tsai</a><br>
+                            <br>
+                            Skills:<br>
+                            Electro-Mechanical Design<br>
+                            Robotics<br>
+                            Iterative Prototyping<br>
+                            CAD<br>
+                            <br>
+                            As part of my mechanical engineering capstone, I'm working in a team of 
+                            undergraduate and graduate students to design and build a robot that can perform 
+                            skateboarding tricks on a half-pipe. I have been working on the mechanical 
+                            design and the power-level systems of the robot. Currently, we are wrapping 
+                            up the design of the robot and entering the building phase.
+
+                        </p>
+                    </th>
+                    <td width = "20%"><img src="./skcover.png" height="350px"></td>
+                </tr>
+            </table>
+            <br>
+            <hr>
+        </div>
+
+        <div class="prjbody"> <!--main body-->
+            <h5>Background</h5>
+            <p>
+                “Smarticle” robots were previously developed by researchers in 
+                Northwestern and Georgia Tech as an emergent behavior system. 
+                Several can be placed in a ring at once to form a “supersmarticle”, which 
+                allows for collective motion. 
+                We can use factors such as sensed light or even sound to simply vary 
+                their activation levels to help move the supersmarticle in a specific 
+                direction, e.g. to follow a light source, like in the picture below. 
+                Check out a paper about smarticles <a href="https://robotics.sciencemag.org/content/4/34/eaax4316" target="_blank">
+                    here</a>.<br>
+            </p>
+            <img src="prjmedia/phototaxing.jpg">
+            <p>Previously, the team used commercial trackers (OptiTrack), but needed a more accurate, 
+                2-D vision tracking system. Additionally, servo motor angle information 
+                couldn’t be found accurately from the electronics alone.
+            </p>
+            <h5>Requirements</h5>
+            <p>We needed a vision tracker that found:
+                <ul>
+                    <li>The position of each smarticle</li>
+                    <li>The orientation of each smarticle</li>
+                    <li>Servo angle for each arm</li>
+                </ul>
+            </p>
+            <h5>Experimental Setup</h5>
+            <p>Because the shape of each smarticle was so symmetrical, I used color-coded stickers 
+                placed strategically to gather information about the position, orientation, and the 
+                servo angle for each arm. Colors were also used to discern between each smarticle. 
+                A black foamcore board was used to minimize incorrect detection of reflected colors, 
+                and a lot of modifications were made to the lighting to prevent glare, which would 
+                lead to dropouts in data.
+            </p>
+            <img src="prjmedia/smrt1.jpg">
+            <h5>Tracking Algorithm</h5>
+            <p>
+                    I had made a frame-to-frame stitching algorithm specifically for tracking 
+                    of synthetic cells (another emergent behavior system). However, I could not 
+                    use the algorithm or a Kalman filter because of 1. the jerkiness of the 
+                    movements, 2. the low fps, and 3. certain orientations in which it was difficult 
+                    to assign arms to a certain robot. Therefore, the tracking algorithm used circle 
+                    detection on OpenCV to detect the sizes and colors of the dots. In particular, 
+                    circles larger than a certain diameter indicated the position of the smarticle. 
+                    The smaller circles, depending on the color and distance from the center, 
+                    indicated arms or the orientation marker for the robot. Circle detection also 
+                    allowed for tracking of the supersmarticle ring, to verify that the system was 
+                    moving in the desired direction.<br>
+                    <br>
+                    The picture below illustrates the specific calculations performed. First the 
+                    orientation vector was found. Then the orientation vector was used to find joint 
+                    locations, then finally distance and an HSV color mask was used to find 
+                    the angles of the servos.
+            </p>
+            <img src="prjmedia/algorithm.png">
+            
+            <h5>Results</h5>
+            <p>
+                    The experimental setup and tracking algorithm were able to track all movements 
+                    successfully for the quality of the camera – with 30 fps (vs 120 fps used for 
+                    previous experiments). Although manipulating the lighting was a difficult process, 
+                    the new setup with the color-coding allowed for much more robust tracking. Overall, 
+                    I was able to obtain a very clean set of data with positions, orientations, and servo 
+                    angles for each smarticle tracked over time.
+            </p>
+            <img src="prjmedia/smrtresults.jpg">
+
+        </div>
+
+
+
+    </body>
+</html>
