@@ -75,6 +75,32 @@
                     <li>Servo angle for each arm</li>
                 </ul>
             </p>
+            <h5>Experimental Setup</h5>
+            <p>Because the shape of each smarticle was so symmetrical, I used color-coded stickers 
+                placed strategically to gather information about the position, orientation, and the 
+                servo angle for each arm. Colors were also used to discern between each smarticle. 
+                A black foamcore board was used to minimize incorrect detection of reflected colors, 
+                and a lot of modifications were made to the lighting to prevent glare, which would 
+                lead to dropouts in data.
+            </p>
+            <img src="prjmedia/smrt1.jpg">
+            <h5>Tracking Algorithm</h5>
+            <p>
+                    I had made a frame-to-frame stitching algorithm specifically for tracking 
+                    of synthetic cells (another emergent behavior system). However, I could not 
+                    use the algorithm or a Kalman filter because of 1. the jerkiness of the 
+                    movements, 2. the low fps, and 3. certain orientations in which it was difficult 
+                    to assign arms to a certain robot. Therefore, the tracking algorithm used circle 
+                    detection on OpenCV to detect the sizes and colors of the dots. In particular, 
+                    circles larger than a certain diameter indicated the position of the smarticle. 
+                    The smaller circles, depending on the color and distance from the center, 
+                    indicated arms or the orientation marker for the robot. Circle detection also 
+                    allowed for tracking of the supersmarticle ring, to verify that the system was 
+                    moving in the desired direction.<br>
+                    <br>
+                    The picture below illustrates the specific calculations performed.
+            </p>
+
 
         </div>
 
