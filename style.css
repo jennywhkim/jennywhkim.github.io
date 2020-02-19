@@ -150,13 +150,14 @@ body{
     position: absolute;
     top: 600px;
     padding-left: 100px;
-    width: 75%;
+    width: 80%;
 }
 
 .prjbody img{
     height: 450px;
-    text-align: center;
-    padding: 50px 0px;
+    display: block;
+    padding-top: 50px;
+    padding-bottom: 50px;
 }
 
 h2{
