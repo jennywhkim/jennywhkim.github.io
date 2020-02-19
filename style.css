@@ -125,7 +125,7 @@ body{
 }
 
 .prjhome{
-    position: absolute;
+    display: block;
     padding-left: 100px;
     top: 70px;
 }
@@ -147,8 +147,8 @@ body{
 }
 
 .prjbody{
-    position: absolute;
-    top: 600px;
+    display: block;
+    top: 100px;
     padding-left: 100px;
     width: 80%;
 }
