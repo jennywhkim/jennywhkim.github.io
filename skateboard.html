@@ -56,7 +56,7 @@
 
         <div class="prjbody"> <!--main body-->
             <h5>Background</h5>
-            <p>We were tasked with designing and building a 2-DOF robot that 
+            <p>Our team was tasked with designing and building a 2-DOF robot that 
                 could perform three skateboarding tricks: drop-in, stall, and 
                 manual. As the drop-in and stall tricks are done together on a 
                 half-pipe, this also involved "pumping", where a skateboarder lowers 
@@ -65,7 +65,7 @@
             </p>
             <img src="https://media.giphy.com/media/l378bne1hxY8jX3pe/source.gif">
             <p>
-                Not a half-pipe, but the skateboarder above pumps in the same way. After a skateboarder 
+                This gif is not on a half-pipe, but the skateboarder above pumps in the same way. After a skateboarder 
                 drops in from one end of the half-pipe, they would pump on the way down to gain kinetic 
                 energy, and use that extra energy to help them get to the other lip to stall, where they briefly 
                 shift their center of mass towards the back to hang on to the lip for a second.
@@ -84,11 +84,25 @@
                 mechanical design and control, we ultimately decided to use the inverted double pendulum as our 
                 design.
             </p>
-            <h5>Calculations</h5>
+            <h5>Calculations and Motor/Transmission Selection</h5>
             <p>
                 We found the pumping stage to be when our peak acceleration and hence our peak torque for our 
                 motors occurred. Since our end-effector was to heavily affect the center of mass, we decided to 
                 mount our motors, amplifiers and all other heavy components at the top of the double pendulum. 
+                During our research process we found that pumping is performed mostly to compensate for the energy 
+                lost due to friction. We experimentally found the friction coefficient of our skateboard and used 
+                the dimensions of the half-pipe to calculate how high our robot had to raise the end 
+                effector by in how much time. We used this velocity to calculate our necessary power and RPM, and 
+                used a velocity-time curve to determine our peak acceleration -- which, in conjunction with other 
+                determined masses and lengths helped us find peak torques for both motors.
+                <br>This was a rather iterative process, as we could not choose our motors and amplifiers without 
+                determining the desired end-effector mass, and vice versa. Eventually we determined that our end-effector 
+                mass was 4kg, which helped select our motors, transmission, and amplifiers. Due to the high torque requirement and 
+                small width requirement of our robot, we decided on belt drives for both our pendulum arms.
+            </p>
+            <h5>Mechanical Design</h5>
+            <p>
+                
             </p>
 
         </div>
