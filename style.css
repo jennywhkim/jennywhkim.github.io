@@ -115,6 +115,10 @@ body{
     vertical-align: top;
 }
 
+#resumesec{
+    width: 400px;
+}
+
 #resumepic{
     height: 300px;
 }
