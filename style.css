@@ -33,7 +33,7 @@ body{
 
 
 .landing{
-    position: absolute;
+    display: block;
     padding: 200px 100px;
 }
 
@@ -48,9 +48,8 @@ body{
 }
 
 .about{
-    position: absolute;
     display: block;
-    top: 550px;
+    top: 250px;
     left: 100px;
     padding-bottom: 50px;
     padding-top: 50px;
@@ -78,9 +77,9 @@ body{
 }
 
 .prjs{
-    position: absolute;
+    display: block;
     margin-left: 100px;
-    top: 1100px;
+    top: 200px;
     padding-top: 50px;
 }
 
@@ -102,10 +101,10 @@ body{
 }
 
 .contact{
-    position: absolute;
+    display: block;
     padding-left: 100px;
     padding-right: 100px;
-    top: 2000px;
+    top: 200px;
     padding-top: 50px;
     width: 100%;
     padding-bottom: 150px;
