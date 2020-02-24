@@ -49,6 +49,7 @@ body{
 
 .about{
     position: absolute;
+    display: block;
     top: 550px;
     left: 100px;
     padding-bottom: 50px;
