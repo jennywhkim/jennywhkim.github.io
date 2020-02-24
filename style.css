@@ -88,7 +88,8 @@ body{
 }
 
 .prjlist td{
-    width: 325px;
+    width: 25%;
+    height: 275px;
     padding-right: 50px;
     padding-top: 0px;
     padding-bottom: 40px;
@@ -97,7 +98,7 @@ body{
 }
 
 .prjlist img{
-    height: 275px;
+    height: auto;
 }
 
 .contact{
